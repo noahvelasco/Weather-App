@@ -9,7 +9,6 @@ const RowText = (props) => {
     messageOneStyle,
     messageTwoStyle,
   } = props
-  const {} = styles
   return (
     <View style={containerStyle}>
       <Text style={messageOneStyle}>{messageOne} </Text>
