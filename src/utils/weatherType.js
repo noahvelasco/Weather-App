@@ -22,7 +22,7 @@ export const weatherType = {
   Clear: {
     icon: 'sun',
     message: 'It is perfect t-shirt weather',
-    backgroundColor: '#e47200',
+    backgroundColor: '#FFCE46',
   },
   Clouds: {
     icon: 'cloud',
