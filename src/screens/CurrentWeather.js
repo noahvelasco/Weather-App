@@ -5,7 +5,7 @@ import RowText from '../components/RowText'
 
 import { weatherType } from '../utils/weatherType'
 
-const CurrentWeather = () => {
+const CurrentWeather = ({ weatherData }) => {
   const {
     wrapper,
     container,
@@ -17,6 +17,7 @@ const CurrentWeather = () => {
     description,
     message,
   } = styles
+  console.log('\n>>>>>>>>>>>>>>>>>>>>>', weatherData)
   return (
     <SafeAreaView style={wrapper}>
       <View style={container}>
